@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>dxw Playbook</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/main.css" />
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  </head>
+
+  <body class="ready sticky">
+    <a class="skip" id="skip-to-content" href="#main">Skip to content</a>
+    <nav class="app-nav" aria-label="Main">
+
+<ul>
+  <li><a href="/">Playbook</a></li>
+  <li>
+    <a href="./guides">Guides</a>
+    <ul>
+      
+      <li><a href="/guides/agile-delivery-phases.html">Agile delivery phases</a></li>
+      
+      <li><a href="/guides/being-a-tech-lead-at-dxw.html">Being a tech lead at dxw</a></li>
+      
+      <li><a href="/guides/card-sort.html">Card sorting</a></li>
+      
+      <li><a href="/guides/claiming-expenses.html">Claiming expenses</a></li>
+      
+      <li><a href="/guides/contributing.html">Contributing to the Playbook</a></li>
+      
+      <li><a href="/guides/daily-standups.html">Daily standups</a></li>
+      
+      <li><a href="/guides/design-career-progression-framework.html">Design career progression framework</a></li>
+      
+      <li><a href="/guides/development-workflow.html">Development workflow</a></li>
+      
+      <li><a href="/guides/getting-a-project-ready-for-support.html">Getting a project ready for support</a></li>
+      
+      <li><a href="/guides/plugin-advisories.html">GovPress plugin Advisories</a></li>
+      
+      <li><a href="/guides/plugin-reviews.html">GovPress plugin reviews</a></li>
+      
+      <li><a href="/guides/how-we-do-pitches.html">How we do pitches</a></li>
+      
+      <li><a href="/guides/how-we-do-user-research.html">How we do user research</a></li>
+      
+      <li><a href="/guides/inclusion-diversity-equality.html">Inclusion, diversity and equal opportunities policy</a></li>
+      
+      <li><a href="/guides/junior-developer-development-plan.html">Junior developer development plan</a></li>
+      
+      <li><a href="/guides/managing.html">Managing the Playbook</a></li>
+      
+      <li><a href="/guides/office-accessibility.html">Office accessibility</a></li>
+      
+      <li><a href="/guides/week-notes.html">Project weeknotes</a></li>
+      
+      <li><a href="/guides/running-a-discovery-kick-off-workshop.html">Running a discovery kick-off workshop</a></li>
+      
+      <li><a href="/guides/running-a-roadmapping-workshop.html">Running a roadmapping workshop</a></li>
+      
+      <li><a href="/guides/service-design-at-dxw.html">Service Design approach</a></li>
+      
+      <li><a href="/guides/setting-up-a-new-project.html">Setting up a new project</a></li>
+      
+      <li><a href="/guides/show-and-tells.html">Show and tells</a></li>
+      
+      <li><a href="/guides/sprint-planning.html">Sprint Planning</a></li>
+      
+      <li><a href="/guides/support-and-on-call.html">Support and on call</a></li>
+      
+      <li><a href="/guides/team-and-project-scheduling.html">Team and project scheduling</a></li>
+      
+      <li><a href="/guides/team-changes-and-handovers.html">Team changes and handovers</a></li>
+      
+      <li><a href="/guides/test.html">Test</a></li>
+      
+      <li><a href="/guides/tone-of-voice.html">Tone of voice</a></li>
+      
+      <li><a href="/guides/moving-a-repo-to-github.html">Transferring a repo from git.dxw.net to github</a></li>
+      
+      <li><a href="/guides/web-accessibility.html">Web accessibility</a></li>
+      
+      <li><a href="/guides/web-analytics.html">Web analytics</a></li>
+      
+      <li><a href="/guides/web-performance.html">Web performance</a></li>
+      
+      <li><a href="/guides/working-remotely.html">Working remotely</a></li>
+      
+      <li><a href="/guides/wrapping-up-a-project.html">Wrapping up a project</a></li>
+      
+    </ul>
+  </li>
+</ul>
+
+<div class="logo">
+  <a href="./" title="Back to Playbook home page">
+    <img src="/dist/dmark.png" alt="" width="32" height="32" />
+  </a>
+</div>
+</nav>
+    <aside class="sidebar">
+      <div class="search" role="search">
+        <div class="input-wrap">
+          <input
+            type="search"
+            value=""
+            aria-label="Search text"
+            placeholder="Type to search"
+          />
+        </div>
+        <div class="results-panel"></div>
+      </div>
+      <nav class="sidebar-nav" aria-label="sidebar">      <h1 class="page-title">Supporting your development and wellbeing</h1>
+      <ul>
+        <li data-title="People manager and HR surgeries" data-content="The bi-weekly HR surgeries are there to give an opportunity for members of the
+team to discuss matters they might not feel able to raise with buddies/delivery
+leads/line managers or that are specialist to the HR function in dxw.The list is not exhaustive but some topics might include:
+  Holiday
+  Sickness
+  Pay
+  Expenses
+  Parental Leave
+  Accessibility
+  Probation
+  Pensions
+  Occupational health issues
+  Contractual matters
+  Working patterns/locations
+  Training and career progression
+  Diversity
+  Inclusivity
+  Stress management
+  Interpersonal issues
+  Bereavement
+  Grievance and disciplinary matters
+  Facilitation/scheduling of conversations with Directors/heads-of, such as
+Salary Reviews
+Bookable slots are available on Wednesdays and Fridays at 11am but the People
+Manager’s door is always open.">
+          <a href="#people-manager-and-hr-surgeries" data-target="people-manager-and-hr-surgeries">People manager and HR surgeries</a>
+                <ul>
+        <li data-title="Line managers" data-content="Line management at dxw is not about hierarchy, it’s about providing professional
+guidance and support.Line managers ensure that team members are clear about their roles and
+responsibilities at dxw, and how well they are doing at achieving them.Individuals should be proactive in taking responsibility for their own
+development, but line managers will provide advice and support to help team
+members meet their agreed short and long term goals.HR support line managers with advice and guidance on recruitment, onboarding,
+probation, performance, sickness and any other specialist knowledge.You can find out who your line manager is in BreatheHR on the summary section of
+your profile page.">
+          <a href="#line-managers" data-target="line-managers">Line managers</a>
+                <ul>
+        <li data-title="One-to-ones with your line manager" data-content="PurposeFor your manager to help you with your personal and professional development,
+your wellbeing, and to build a trusting relationship between the two of you.">
+          <a href="#one-to-ones-with-your-line-manager" data-target="one-to-ones-with-your-line-manager">One-to-ones with your line manager</a>
+          
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Personal learning and development allowance" data-content="We have an annual allowance of £750 and up to 4 days per person, to be used for
+a range of professional and personal development activities like workshops,
+short courses or conferences. dxw pays for the event ticket, travel, and
+accommodation, but you will need to cover your own costs for food, drink and
+supplementary equipment.You should discuss your training plan with your line manager, they will help you
+identify potential areas for development and support you to find suitable events
+or training.You may also use the allowance to attend a non role based conference or event
+focused on improving your health and wellbeing. You will receive two days off
+for this, and can top up the time from your annual leave allowance.Attending conferences and events that are not related to your role, is a taxable
+benefit. As your employer, we will make the declaration, HMRC will then adjust
+your tax code accordingly to collect the tax via PAYE.">
+          <a href="#personal-learning-and-development-allowance" data-target="personal-learning-and-development-allowance">Personal learning and development allowance</a>
+          
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Support for professional qualifications" data-content="We may pay for a qualification or training that exceeds the annual £750
+individual learning and development allowance, when that course is relevant and
+helpful to both dxw and the individual. This is a benefit that comes into effect
+once you have passed your probationary period.We will agree to pay on the understanding that if you leave dxw, you may be
+liable to repay some or all of the fees and expenses incurred.Other than in exceptional circumstances, which will be decided at the Directors’
+discretion, you will be required to repay dxw as follows:
+  If you leave dxw before you attend the course, you will repay 100% of the
+costs that dxw cannot recover from the course provider.
+  If you leave dxw during the course or within 9 months of completing it, you
+will repay 75% of the costs.
+  If you leave dxw more than 9 months and no more than 12 months after
+completing the course, you will repay 50% of the costs.
+  If you leave dxw more than 12 months after completing the course, no repayment
+will be required.
+We appreciate that these percentages won’t always work given the length of the
+qualification, and so the final percentage will be at the discretion of the
+Directors and will be agreed with the individual prior to approval of the
+course.You will not be required to repay any costs in the following circumstances:
+  Compulsory or voluntary redundancy
+  Retirement due to sickness
+Please complete this
+form
+and speak to your line manager or the People Manager if you would like support
+from dxw to complete a professional qualification.">
+          <a href="#support-for-professional-qualifications" data-target="support-for-professional-qualifications">Support for professional qualifications</a>
+          
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Private Slack channels" data-content="We encourage everyone at dxw to be open about their identities and the
+challenges they experience at work, but sometimes we want to only talk to people
+whose experiences more closely resemble our own. To enable that, we have created
+a number of private channels:
+  #identity-lgbtqia-plus (contact a member of @identity-lgbtqia-plus-admins to
+join)
+  #identity-gender-minority (contact a member of
+@identity-gender-minority-admins to join)
+Anyone can create a new one by creating the private channel, creating a user
+group with at least one volunteer (or asking a Slack admin to do it for you),
+and adding it to this list. It’s probably a good idea to share that you’ve
+created it in #general.The membership of those channels is also private to protect those people, and
+members of a channel are expected to keep everything in those channels private.We don’t police membership of these channels, and trust everyone to be honest
+about their identities. Don’t invite anyone without first asking them if they
+want to be invited.">
+          <a href="#private-slack-channels" data-target="private-slack-channels">Private Slack channels</a>
+          
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Book purchase" data-content="If there is a book relevant to your work that you would like to read, make a
+request through the #help-purchasing slack channel and the Bus Ops team will buy
+it for the library.">
+          <a href="#book-purchase" data-target="book-purchase">Book purchase</a>
+          
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Cycle to work scheme" data-content="dxw operates a cycle-to-work scheme, which may allow you to purchase a bicycle
+at reduced cost. If you would like to take this up, please register
+on the cycle scheme website">
+          <a href="#cycle-to-work-scheme" data-target="cycle-to-work-scheme">Cycle to work scheme</a>
+          
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Eyecare vouchers" data-content="dxw provides eyecare for the team via a voucher system run by ASE Corporate
+Eyecare Ltd and Boots.Details of what the wellbeing voucher offers can be found here:
+Eyecare for Wellbeing.Apply for a wellbeing eyecare voucher">
+          <a href="#eyecare-vouchers" data-target="eyecare-vouchers">Eyecare vouchers</a>
+          
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Backpack and other personal equipment" data-content="dxw will pay for the equipment needed to enable you to work comfortably and
+safely. dxw also offers a budget of £25 towards a work backpack. Use the
+help-purchasing Slack channel to request any equipment you need, or talk to
+anyone in business operations if you are unsure if a purchase will be covered.">
+          <a href="#backpack-and-other-personal-equipment" data-target="backpack-and-other-personal-equipment">Backpack and other personal equipment</a>
+          
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Support paths" data-content="HelpersWhen you join dxw you will be assigned a helper. This person will work closely
+with you for at least your first 4 months. They will do a similar job to you,
+help you meet members of the wider team, catch up with you on at least a 3/6/12
+week basis to ensure you are receiving everything you need, and will NEVER get
+bored of your questions!If you feel that you’re not getting as much time with your helper as you’d like,
+please speak to the People Manager.As a helper, you will be vital in ensuring you have the regular catch ups - if
+you are finding it hard to schedule them, please do talk to Bus Ops.For more information on being a helper, please see the
+checklist
+or speak to the People Manager.">
+          <a href="#support-paths" data-target="support-paths">Support paths</a>
+          
+        </li>
+      </ul>
+
+        </li>
+      </ul>
+
+        </li>
+      </ul>
+</nav>
+    </aside>
+    <main>
+      <section class="content">
+        <article class="markdown-section" id="main">
+          <h1>Supporting your development and wellbeing</h1>
+          <h4 id="people-manager-and-hr-surgeries">People manager and HR surgeries</h4>
+
+<p>The bi-weekly HR surgeries are there to give an opportunity for members of the
+team to discuss matters they might not feel able to raise with buddies/delivery
+leads/line managers or that are specialist to the HR function in dxw.</p>
+
+<p>The list is not exhaustive but some topics might include:</p>
+
+<ul>
+  <li>Holiday</li>
+  <li>Sickness</li>
+  <li>Pay</li>
+  <li>Expenses</li>
+  <li>Parental Leave</li>
+  <li>Accessibility</li>
+  <li>Probation</li>
+  <li>Pensions</li>
+  <li>Occupational health issues</li>
+  <li>Contractual matters</li>
+  <li>Working patterns/locations</li>
+  <li>Training and career progression</li>
+  <li>Diversity</li>
+  <li>Inclusivity</li>
+  <li>Stress management</li>
+  <li>Interpersonal issues</li>
+  <li>Bereavement</li>
+  <li>Grievance and disciplinary matters</li>
+  <li>Facilitation/scheduling of conversations with Directors/heads-of, such as
+Salary Reviews</li>
+</ul>
+
+<p>Bookable slots are available on Wednesdays and Fridays at 11am but the People
+Manager’s door is always open.</p>
+
+<h4 id="line-managers">Line managers</h4>
+
+<p>Line management at dxw is not about hierarchy, it’s about providing professional
+guidance and support.</p>
+
+<p>Line managers ensure that team members are clear about their roles and
+responsibilities at dxw, and how well they are doing at achieving them.</p>
+
+<p>Individuals should be proactive in taking responsibility for their own
+development, but line managers will provide advice and support to help team
+members meet their agreed short and long term goals.</p>
+
+<p>HR support line managers with advice and guidance on recruitment, onboarding,
+probation, performance, sickness and any other specialist knowledge.</p>
+
+<p>You can find out who your line manager is in BreatheHR on the summary section of
+your profile page.</p>
+
+<h5 id="line-management-principles">Line management principles</h5>
+
+<h6 id="communicate-clearly">Communicate clearly</h6>
+
+<p>Communication is a two-way process and it is important to check understanding
+and confidence, and value the other person in decision-making. Explaining the
+task and its objectives clearly means people know what’s expected of them and
+the part they play. It empowers them to take responsibility and own how they
+approach the work.</p>
+
+<h6 id="recognise-achievement-and-celebrate-success">Recognise achievement and celebrate success</h6>
+
+<p>A simple ‘thank you’ shows someone that what they have done is appreciated, and
+is hugely motivating. Celebrating major, and minor, achievements is an important
+part of our culture at dxw. It builds team spirit and morale.</p>
+
+<h6 id="guard-our-values">Guard our values</h6>
+
+<p>Lead by example. The actions and behaviours of line managers must always
+demonstrate our dxw values. We should always hold ourselves accountable to our
+values, and encourage the same in all of our colleagues, including those we line
+manage.</p>
+
+<h6 id="continuous-constructive-feedback">Continuous constructive feedback</h6>
+
+<p>Find out how each of your team members prefers to receive feedback, and develop
+an approach which reflects that. Ongoing positive and constructive feedback is
+essential if someone is to feel valued, learn from their experiences and become
+better at what they do.</p>
+
+<h6 id="be-honest">Be honest</h6>
+
+<p>Being honest means telling the truth and being consistent in what you say and
+who you say it to. Telling things as they are, while being sensitive to the
+situation and individual, ensures that people know where they stand and will
+help to build mutual trust and respect.</p>
+
+<h6 id="wellbeing">Wellbeing</h6>
+
+<p>Line managers look out for the health and wellbeing of the team. They are
+responsible for carrying out dxw’s duty of care to its people.</p>
+
+<h4 id="one-to-ones-with-your-line-manager">One-to-ones with your line manager</h4>
+
+<h5 id="purpose">Purpose</h5>
+
+<p>For your manager to help you with your personal and professional development,
+your wellbeing, and to build a trusting relationship between the two of you.</p>
+
+<h5 id="overview">Overview</h5>
+
+<p>These meetings are about you; ideally you will feel happy driving the meeting.
+If you’re not confident doing this, or are unsure how best to approach it, your
+manager will help you to get there.</p>
+
+<h5 id="agenda-and-topics">Agenda and topics</h5>
+
+<p>Coming to your 1:1s with a list of things you’d like to discuss will help you
+make the most of the time. Some things you might find productive to talk about
+include:</p>
+
+<ul>
+  <li><strong>Your career and growth goals:</strong> Don’t assume your manager knows all your
+aspirations. Bring them up in your 1:1s. Your manager understands you won’t
+work for them forever and they want you to have a happy, fulfilling career —
+whatever that means to you. Tip: if you want to talk about your long-term
+goals but feel uneasy about it, ask your manager to do the same.</li>
+  <li><strong>Team improvement:</strong> Have an idea that will help your team to work better?
+Use your manager as a sounding board to help you refine and implement your
+suggestion.</li>
+  <li><strong>Self improvement:</strong> Got a specific thing you’d like some help, coaching or
+feedback on? A technical skill or a soft skill? Your 1:1 is the place to bring
+it up. Remember that you can use the 1:1s that fall between career progression
+reviews to discuss any of the proficiencies you’re currently trying to level
+up on.</li>
+  <li><strong>Personal issues:</strong> Anything going on outside of work that’s affecting your
+wellbeing? Physical or mental illness, bereavement, family issues, stress? The
+more you can tell your manager, the more they can try to help, and make
+accommodations for you at work.</li>
+  <li><strong>Interpersonal issues:</strong> Having problems with a coworker? Your manager can
+help mediate or coach you through how to deal with the issue.</li>
+  <li><strong>Retrospection:</strong> If at any time you feel like your 1:1s aren’t particularly
+productive or helpful, or you’d like to change something about them, don’t
+hesitate to bring this up with your manager.</li>
+</ul>
+
+<h5 id="frequency">Frequency</h5>
+
+<p>1:1s should happen at least once per fortnight. Where possible they’ll be
+face-to-face, either in the office or out for a walk, or a coffee. Where that’s
+not possible, remote is perfectly fine. There’ll always be a Google Meet link in
+the calendar invite.</p>
+
+<p>If you need to reschedule your 1:1, let your manager know at the earliest
+opportunity.</p>
+
+<h5 id="meeting-length">Meeting length</h5>
+
+<p>An hour or so, at least once every two weeks, is a good standard to aim for. If
+you meet weekly, a little shorter is fine.</p>
+
+<h5 id="additional-resources">Additional resources</h5>
+
+<p>Here’s
+<a href="https://docs.google.com/document/d/1rCoFGtvbBI2FYhp-4EYMRokB--E8RHs_BleQqNwD0Rk/edit#">a template for helping to prepare for a 1:1, and making notes during it.</a>
+Feel free to make a copy and alter it according to your own needs.</p>
+
+<p>Here’s a great article on
+<a href="https://knowyourteam.com/blog/2018/01/03/7-ways-to-prepare-for-an-effective-one-on-one-meeting-with-your-manager/">7 ways to prepare for an effective one-on-one meeting with your manager.</a></p>
+
+<h4 id="personal-learning-and-development-allowance">Personal learning and development allowance</h4>
+
+<p>We have an annual allowance of £750 and up to 4 days per person, to be used for
+a range of professional and personal development activities like workshops,
+short courses or conferences. dxw pays for the event ticket, travel, and
+accommodation, but you will need to cover your own costs for food, drink and
+supplementary equipment.</p>
+
+<p>You should discuss your training plan with your line manager, they will help you
+identify potential areas for development and support you to find suitable events
+or training.</p>
+
+<p>You may also use the allowance to attend a non role based conference or event
+focused on improving your health and wellbeing. You will receive two days off
+for this, and can top up the time from your annual leave allowance.</p>
+
+<p>Attending conferences and events that are not related to your role, is a taxable
+benefit. As your employer, we will make the declaration, HMRC will then adjust
+your tax code accordingly to collect the tax via PAYE.</p>
+
+<h5 id="how-it-works">How it works</h5>
+
+<p>The allowance will be available to everyone once they have completed their
+probation period, within the dxw financial year which runs from the start of
+July to end June. It will be pro-rata for staff who work part-time. If you don’t
+spend your allowance within the financial year, it cannot be carried over. We
+will start afresh each year, as part of our annual budgeting cycle. Your
+allowance is counted as being spent at the time of purchase rather than at time
+of use; for example, if you buy a conference ticket in May for an event in July
+the same year, the deduction will be made to the budget for the financial year
+that May falls within.</p>
+
+<p>Any events (paid, free, speaking, etc) you attend should be logged in BreatheHR
+as a training request. If they do require payment, please include weblinks and
+an estimate of the ticket, accommodation and travel costs (up to the maximum of
+£750, though you are welcome to pay the difference for more expensive events).
+This helps manage the annual budget and will give you a great view of what you
+have attended in the year.</p>
+
+<p>It’s ok for members of the team to go together, but we need to ensure that
+training days have the lowest impact on client work, so there may be times we
+need to consider whether your request is possible. Our Director of Delivery will
+help with prioritisation in those circumstances.</p>
+
+<p>We know that lots of training isn’t paid for, and involves things like coaching
+and mentoring, learning from colleagues, being an active part of networks, and
+other self-directed learning. We will encourage and support people who want to
+use unbilled days for different types of professional development.</p>
+
+<p>If appropriate, it’d be great if you would talk about your experiences in a blog
+post or bikeshed - sharing good events and useful training will give others the
+opportunity to attend.</p>
+
+<p>At the end of each financial year we will review our financial position with the
+intention of increasing the annual allowance.</p>
+
+<p>If you have any questions, please contact the HR team.</p>
+
+<h4 id="support-for-professional-qualifications">Support for professional qualifications</h4>
+
+<p>We may pay for a qualification or training that exceeds the annual £750
+individual learning and development allowance, when that course is relevant and
+helpful to both dxw and the individual. This is a benefit that comes into effect
+once you have passed your probationary period.</p>
+
+<p>We will agree to pay on the understanding that if you leave dxw, you may be
+liable to repay some or all of the fees and expenses incurred.</p>
+
+<p>Other than in exceptional circumstances, which will be decided at the Directors’
+discretion, you will be required to repay dxw as follows:</p>
+
+<ul>
+  <li>If you leave dxw before you attend the course, you will repay 100% of the
+costs that dxw cannot recover from the course provider.</li>
+  <li>If you leave dxw during the course or within 9 months of completing it, you
+will repay 75% of the costs.</li>
+  <li>If you leave dxw more than 9 months and no more than 12 months after
+completing the course, you will repay 50% of the costs.</li>
+  <li>If you leave dxw more than 12 months after completing the course, no repayment
+will be required.</li>
+</ul>
+
+<p>We appreciate that these percentages won’t always work given the length of the
+qualification, and so the final percentage will be at the discretion of the
+Directors and will be agreed with the individual prior to approval of the
+course.</p>
+
+<p>You will not be required to repay any costs in the following circumstances:</p>
+
+<ul>
+  <li>Compulsory or voluntary redundancy</li>
+  <li>Retirement due to sickness</li>
+</ul>
+
+<p>Please complete this
+<a href="https://docs.google.com/document/d/1gkK8L345gmmHFjqxduz5hvHyRvejMJd_rVNXQtZLrQE/edit">form</a>
+and speak to your line manager or the People Manager if you would like support
+from dxw to complete a professional qualification.</p>
+
+<h4 id="private-slack-channels">Private Slack channels</h4>
+
+<p>We encourage everyone at dxw to be open about their identities and the
+challenges they experience at work, but sometimes we want to only talk to people
+whose experiences more closely resemble our own. To enable that, we have created
+a number of private channels:</p>
+
+<ul>
+  <li>#identity-lgbtqia-plus (contact a member of @identity-lgbtqia-plus-admins to
+join)</li>
+  <li>#identity-gender-minority (contact a member of
+@identity-gender-minority-admins to join)</li>
+</ul>
+
+<p>Anyone can create a new one by creating the private channel, creating a user
+group with at least one volunteer (or asking a Slack admin to do it for you),
+and adding it to this list. It’s probably a good idea to share that you’ve
+created it in #general.</p>
+
+<p>The membership of those channels is also private to protect those people, and
+members of a channel are expected to keep everything in those channels private.</p>
+
+<p>We don’t police membership of these channels, and trust everyone to be honest
+about their identities. <strong>Don’t invite anyone without first asking them if they
+want to be invited.</strong></p>
+
+<h4 id="book-purchase">Book purchase</h4>
+
+<p>If there is a book relevant to your work that you would like to read, make a
+request through the #help-purchasing slack channel and the Bus Ops team will buy
+it for the library.</p>
+
+<h4 id="cycle-to-work-scheme">Cycle to work scheme</h4>
+
+<p>dxw operates a cycle-to-work scheme, which may allow you to purchase a bicycle
+at reduced cost. If you would like to take this up, please register
+<a href="https://www.cyclescheme.co.uk/18eb71">on the cycle scheme website</a></p>
+
+<h4 id="eyecare-vouchers">Eyecare vouchers</h4>
+
+<p>dxw provides eyecare for the team via a voucher system run by ASE Corporate
+Eyecare Ltd and Boots.</p>
+
+<p>Details of what the wellbeing voucher offers can be found here:
+<a href="https://www.eyecareplans.co.uk/corporate-eyecare/eyecare-for-wellbeing/">Eyecare for Wellbeing</a>.</p>
+
+<p><a href="https://gw.eyecareplans.co.uk/dxwe12q2415d3df">Apply for a wellbeing eyecare voucher</a></p>
+
+<h4 id="backpack-and-other-personal-equipment">Backpack and other personal equipment</h4>
+
+<p>dxw will pay for the equipment needed to enable you to work comfortably and
+safely. dxw also offers a budget of £25 towards a work backpack. Use the
+help-purchasing Slack channel to request any equipment you need, or talk to
+anyone in business operations if you are unsure if a purchase will be covered.</p>
+
+<h4 id="support-paths">Support paths</h4>
+
+<h5 id="helpers">Helpers</h5>
+
+<p>When you join dxw you will be assigned a helper. This person will work closely
+with you for at least your first 4 months. They will do a similar job to you,
+help you meet members of the wider team, catch up with you on at least a 3/6/12
+week basis to ensure you are receiving everything you need, and will NEVER get
+bored of your questions!</p>
+
+<p>If you feel that you’re not getting as much time with your helper as you’d like,
+please speak to the People Manager.</p>
+
+<p>As a helper, you will be vital in ensuring you have the regular catch ups - if
+you are finding it hard to schedule them, please do talk to Bus Ops.</p>
+
+<p>For more information on being a helper, please see the
+<a href="https://docs.google.com/document/d/1Dc3IRZ_ze7QzMQTHO70ZC6hU8cig5ds7LN2MoHmPBe8/edit">checklist</a>
+or speak to the People Manager.</p>
+
+<h5 id="buddies">Buddies</h5>
+
+<p>Once you have passed your 4 month probation, we would like you to choose a buddy
+within the company to support you.</p>
+
+<p>We recommend this person <strong>doesn’t</strong> work directly with you, someone in a
+different role and that you don’t work closely with on projects, as this will
+give you a second pair of ears and a whole new set of experiences to draw on.</p>
+
+<p>This is not mandatory, just recommended and similarly not everyone may wish to
+be a buddy - don’t be afraid to ask or say no. It can be reciprocal but doesn’t
+have to be. Also, if you feel that a change of buddy would benefit you for
+whatever reason or that you’re no longer able to be a buddy, this should also
+not be an awkward situation. If you have any concerns, have a chat with the
+People Manager.</p>
+
+<p>The buddy system is there to help us all improve, to make sure we’re doing the
+right kind of work and to check that we’re dealing with practical problems we’re
+facing. It’s not line management, so it’s not the right place to talk about
+holiday, salary, sickness, absence or anything disciplinary. If you need to talk
+about those things, talk to the People Manager.</p>
+
+<p>If you want to know more about how the buddy system works, how often to meet and
+suggested discussion topics, see the buddy
+<a href="https://docs.google.com/document/d/1PBKwPLFsGWUUzeYAObcFLQJyTPknkLhm2HrbuHwxelU/edit?usp=sharing">crib sheet</a>.
+This shouldn’t be a huge time commitment, ideally just a pleasant Friday meet
+up.</p>
+
+<h5 id="your-delivery-lead-for-those-on-client-work">Your delivery lead (for those on client work)</h5>
+
+<p>There will be opportunities within the delivery team to raise any issues or
+concerns you might have e.g. retrospectives or planning sessions. As well as
+this, or if you’d prefer to talk one on one, the delivery lead working on the
+project will be available to provide support and guidance.</p>
+
+<h5 id="directors-and-heads-of">Directors and heads-of</h5>
+
+<p>All members of the Directors and heads-of team are here to help answer any
+questions you might have. Your own Director and/or Head-of profession or
+location is there to provide support on matters relating to dxw and your career
+with us, as well as profession specific questions. Similarly, they are here if
+you need to escalate any job-related concerns.</p>
+
+<h5 id="our-managing-director-dave">Our Managing Director, Dave</h5>
+
+<p>At dxw, all doors are open if you need to raise a concern or just have a chat -
+this includes our MD. Dave is always available to discuss any questions you have
+about the company and its future. Equally, if you feel you need to escalate
+anything to him, don’t hesitate to get in touch. Dave’s diary is open and you
+can see it on Google Calendar. If you would like to schedule some time with him,
+please feel free to book something.</p>
+
+        </article>
+      </section>
+    </main>
+    <footer>
+      <button class="sidebar-toggle" aria-label="Toggle Navigation">
+        <div class="sidebar-toggle-button">
+          <span></span><span></span><span></span>
+        </div>
+      </button>
+    </footer>
+    <script type="text/javascript" src="./dist/main.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

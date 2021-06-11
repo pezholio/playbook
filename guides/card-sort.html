@@ -5,7 +5,8 @@
     <title>dxw Playbook</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/dist/main.css" />
+    <link rel="stylesheet" href="./dist/main.css" />
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
 
   <body class="ready sticky">
@@ -15,7 +16,7 @@
 <ul>
   <li><a href="/">Playbook</a></li>
   <li>
-    <a href="/guides">Guides</a>
+    <a href="./guides">Guides</a>
     <ul>
       
       <li><a href="/guides/agile-delivery-phases.html">Agile delivery phases</a></li>
@@ -72,6 +73,8 @@
       
       <li><a href="/guides/team-changes-and-handovers.html">Team changes and handovers</a></li>
       
+      <li><a href="/guides/test.html">Test</a></li>
+      
       <li><a href="/guides/tone-of-voice.html">Tone of voice</a></li>
       
       <li><a href="/guides/moving-a-repo-to-github.html">Transferring a repo from git.dxw.net to github</a></li>
@@ -91,7 +94,7 @@
 </ul>
 
 <div class="logo">
-  <a href="/" title="Back to Playbook home page">
+  <a href="./" title="Back to Playbook home page">
     <img src="/dist/dmark.png" alt="" width="32" height="32" />
   </a>
 </div>
@@ -324,6 +327,17 @@ for agile analysis see
         </div>
       </button>
     </footer>
-    <script type="text/javascript" src="/dist/main.js"></script>
+    <script type="text/javascript" src="./dist/main.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>

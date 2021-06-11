@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>dxw Playbook</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/main.css" />
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  </head>
+
+  <body class="ready sticky">
+    <a class="skip" id="skip-to-content" href="#main">Skip to content</a>
+    <nav class="app-nav" aria-label="Main">
+
+<ul>
+  <li><a href="/">Playbook</a></li>
+  <li>
+    <a href="./guides">Guides</a>
+    <ul>
+      
+      <li><a href="/guides/agile-delivery-phases.html">Agile delivery phases</a></li>
+      
+      <li><a href="/guides/being-a-tech-lead-at-dxw.html">Being a tech lead at dxw</a></li>
+      
+      <li><a href="/guides/card-sort.html">Card sorting</a></li>
+      
+      <li><a href="/guides/claiming-expenses.html">Claiming expenses</a></li>
+      
+      <li><a href="/guides/contributing.html">Contributing to the Playbook</a></li>
+      
+      <li><a href="/guides/daily-standups.html">Daily standups</a></li>
+      
+      <li><a href="/guides/design-career-progression-framework.html">Design career progression framework</a></li>
+      
+      <li><a href="/guides/development-workflow.html">Development workflow</a></li>
+      
+      <li><a href="/guides/getting-a-project-ready-for-support.html">Getting a project ready for support</a></li>
+      
+      <li><a href="/guides/plugin-advisories.html">GovPress plugin Advisories</a></li>
+      
+      <li><a href="/guides/plugin-reviews.html">GovPress plugin reviews</a></li>
+      
+      <li><a href="/guides/how-we-do-pitches.html">How we do pitches</a></li>
+      
+      <li><a href="/guides/how-we-do-user-research.html">How we do user research</a></li>
+      
+      <li><a href="/guides/inclusion-diversity-equality.html">Inclusion, diversity and equal opportunities policy</a></li>
+      
+      <li><a href="/guides/junior-developer-development-plan.html">Junior developer development plan</a></li>
+      
+      <li><a href="/guides/managing.html">Managing the Playbook</a></li>
+      
+      <li><a href="/guides/office-accessibility.html">Office accessibility</a></li>
+      
+      <li><a href="/guides/week-notes.html">Project weeknotes</a></li>
+      
+      <li><a href="/guides/running-a-discovery-kick-off-workshop.html">Running a discovery kick-off workshop</a></li>
+      
+      <li><a href="/guides/running-a-roadmapping-workshop.html">Running a roadmapping workshop</a></li>
+      
+      <li><a href="/guides/service-design-at-dxw.html">Service Design approach</a></li>
+      
+      <li><a href="/guides/setting-up-a-new-project.html">Setting up a new project</a></li>
+      
+      <li><a href="/guides/show-and-tells.html">Show and tells</a></li>
+      
+      <li><a href="/guides/sprint-planning.html">Sprint Planning</a></li>
+      
+      <li><a href="/guides/support-and-on-call.html">Support and on call</a></li>
+      
+      <li><a href="/guides/team-and-project-scheduling.html">Team and project scheduling</a></li>
+      
+      <li><a href="/guides/team-changes-and-handovers.html">Team changes and handovers</a></li>
+      
+      <li><a href="/guides/test.html">Test</a></li>
+      
+      <li><a href="/guides/tone-of-voice.html">Tone of voice</a></li>
+      
+      <li><a href="/guides/moving-a-repo-to-github.html">Transferring a repo from git.dxw.net to github</a></li>
+      
+      <li><a href="/guides/web-accessibility.html">Web accessibility</a></li>
+      
+      <li><a href="/guides/web-analytics.html">Web analytics</a></li>
+      
+      <li><a href="/guides/web-performance.html">Web performance</a></li>
+      
+      <li><a href="/guides/working-remotely.html">Working remotely</a></li>
+      
+      <li><a href="/guides/wrapping-up-a-project.html">Wrapping up a project</a></li>
+      
+    </ul>
+  </li>
+</ul>
+
+<div class="logo">
+  <a href="./" title="Back to Playbook home page">
+    <img src="/dist/dmark.png" alt="" width="32" height="32" />
+  </a>
+</div>
+</nav>
+    <aside class="sidebar">
+      <div class="search" role="search">
+        <div class="input-wrap">
+          <input
+            type="search"
+            value=""
+            aria-label="Search text"
+            placeholder="Type to search"
+          />
+        </div>
+        <div class="results-panel"></div>
+      </div>
+      <nav class="sidebar-nav" aria-label="sidebar">      <h1 class="page-title">Development</h1>
+      <ul>
+        <li data-title="Development team principles" data-content="
+  
+    Solve real user needs
+
+    Good code starts with understanding, and is rooted in the real world. We work
+in multi-disciplinary teams, but you’re not just there to churn out code. Get
+involved in the research and design. Understand the needs of the users and
+the constraints of the organisations we’re working with.
+
+    Ultimately, it’s about the user and their needs, not about technology.
+Sometimes software is not the answer.
+  
+  
+    Own your code, but collaborate
+
+    Having the opportunity to see a piece of work through to completion is a
+great way to get stuff done, and for developers to grow. Take ownership of
+your work to get it all the way through our development process to being used
+by users.
+
+    Ownership gets stuff done, but collaboration makes it better. So involve the
+rest of your team in your work: agree approaches, highlight tradeoffs and
+seek out reviews. Get all your code reviewed by another developer to help us
+ship better quality code, get the opportunity to learn new skills, and
+increase the shared knowledge of our products. Request feedback, ask
+questions and discuss code, but ultimately the author is responsible for
+making changes.
+  
+  
+    Security is a user need
+
+    Sometimes the simplest or easiest solution is not the most secure, and we
+fight for our user’s safety and security, even when a client doesn’t agree.
+  
+  
+    Use simple, conventional technology
+
+    By default, use straightforward technology and conventional approaches. The
+services we built have to be maintained and iterated on by small, and
+sometimes less experienced, teams. Keeping things simple ensures that is as
+painless as possible.
+
+    Vary from convention only on the domain specific stuff, where it adds the
+most value.
+  
+  
+    Build for quality and consistency
+
+    Think about those who come after us. We build high quality systems with the
+lowest possible maintenance burden. We write tests, use linters, follow
+standards and conventions, and document our decisions. The things we build
+should be set to thrive after we leave.
+  
+  
+    Improve with each iteration
+
+    Always leave the codebase in a slightly better place than when you found it.
+Look for opportunities to refactor difficult code, to improve documentation,
+or to extract shared functionality.
+  
+  
+    Communicate clearly and frequently
+
+    Help our future selves and others by recording the reasons for our actions.
+Explain the changes you’re making to code through your commit messages and
+pull requests. Explain the decisions you’re making about technology through
+architecture decision records. Explain the tradeoffs you’re making in
+planning and show and tells.
+
+    Use straightforward language, even when you’re dealing with complex technical
+issues. Prefer to write it down over speaking it out, to ensure a lasting
+record.
+  
+  
+    Be humble, supportive and open minded
+
+    Assume other people on your team know things you don’t. Feel comfortable
+saying “I don’t know”.
+
+    Assume you know things other people on your team don’t, but be prepared to be
+wrong. Ask questions rather than giving instructions. Share your opinions and
+experience openly with your team.
+
+    Question the obvious and test our assumptions. Listen to the client and the
+users and their experiences.
+
+    Be non-judgemental – assume everyone did the best they could at the time,
+with what they knew and the resources available.
+  
+  
+    Always learning. Always teaching
+
+    Technology never stops, and the amount to know even for our limited stack is
+huge, so we must learn and share. We teach each other through peer mentoring,
+pairing and reviews.
+
+    Share what you learn on a project with the whole team so we can reuse
+knowledge across projects. Encourage others in their learning.
+  
+  
+    Do the smallest amount of good work
+
+    We aspire to regularly ship good code, and deliver it to the users as often
+as possible. Delivering impact fast by shipping something real has a big
+impact on the morale of the team and happiness of our clients and users.
+
+    Where you can, do less and deliver it sooner. Break down work into smaller
+pieces. Descope anything that isn’t critical for a first version. Do a
+minimum slice that works for some of your users. Anything to reduce the time
+between get started on something and delivering it to users.
+
+    Work at a pace that suits the project. Hacky is sometimes fine. If you’re
+working on prototypes then do only what you need to answer your questions.
+Sometimes, if you’re working on critical production systems, you’ll have to
+go slower. When that’s the case, it’s even more important to break down the
+work into the smallest reasonable chunks, to demonstrate progress, to make
+reviewing the changes as easy as possible, and to prove your assumptions.
+  
+  
+    Work in the open
+
+    Be open by default. Code should be public unless there’s a good reason
+otherwise. Changes to open source libraries should be contributed back to the
+project. Dashboards should be public wherever reasonable.
+
+    The way we’re working should also be open to our clients. Work being done
+should be represented in Trello boards that everyone can see. Communication
+should be done in public Slack channels rather than direct messages. Openly
+communicating about our work allows clients to see how we’re doing, and what
+needs their attention, and gives everyone in the team context for the work
+being done and decisions being made.
+  
+">
+          <a href="#development-team-principles" data-target="development-team-principles">Development team principles</a>
+          
+        </li>
+      </ul>
+</nav>
+    </aside>
+    <main>
+      <section class="content">
+        <article class="markdown-section" id="main">
+          <h1>Development</h1>
+          <h4 id="development-team-principles">Development team principles</h4>
+
+<ol>
+  <li>
+    <p><strong>Solve real user needs</strong></p>
+
+    <p>Good code starts with understanding, and is rooted in the real world. We work
+in multi-disciplinary teams, but you’re not just there to churn out code. Get
+involved in the research and design. Understand the needs of the users and
+the constraints of the organisations we’re working with.</p>
+
+    <p>Ultimately, it’s about the user and their needs, not about technology.
+Sometimes software is not the answer.</p>
+  </li>
+  <li>
+    <p><strong>Own your code, but collaborate</strong></p>
+
+    <p>Having the opportunity to see a piece of work through to completion is a
+great way to get stuff done, and for developers to grow. Take ownership of
+your work to get it all the way through our development process to being used
+by users.</p>
+
+    <p>Ownership gets stuff done, but collaboration makes it better. So involve the
+rest of your team in your work: agree approaches, highlight tradeoffs and
+seek out reviews. Get all your code reviewed by another developer to help us
+ship better quality code, get the opportunity to learn new skills, and
+increase the shared knowledge of our products. Request feedback, ask
+questions and discuss code, but ultimately the author is responsible for
+making changes.</p>
+  </li>
+  <li>
+    <p><strong>Security is a user need</strong></p>
+
+    <p>Sometimes the simplest or easiest solution is not the most secure, and we
+fight for our user’s safety and security, even when a client doesn’t agree.</p>
+  </li>
+  <li>
+    <p><strong>Use simple, conventional technology</strong></p>
+
+    <p>By default, use straightforward technology and conventional approaches. The
+services we built have to be maintained and iterated on by small, and
+sometimes less experienced, teams. Keeping things simple ensures that is as
+painless as possible.</p>
+
+    <p>Vary from convention only on the domain specific stuff, where it adds the
+most value.</p>
+  </li>
+  <li>
+    <p><strong>Build for quality and consistency</strong></p>
+
+    <p>Think about those who come after us. We build high quality systems with the
+lowest possible maintenance burden. We write tests, use linters, follow
+standards and conventions, and document our decisions. The things we build
+should be set to thrive after we leave.</p>
+  </li>
+  <li>
+    <p><strong>Improve with each iteration</strong></p>
+
+    <p>Always leave the codebase in a slightly better place than when you found it.
+Look for opportunities to refactor difficult code, to improve documentation,
+or to extract shared functionality.</p>
+  </li>
+  <li>
+    <p><strong>Communicate clearly and frequently</strong></p>
+
+    <p>Help our future selves and others by recording the reasons for our actions.
+Explain the changes you’re making to code through your commit messages and
+pull requests. Explain the decisions you’re making about technology through
+architecture decision records. Explain the tradeoffs you’re making in
+planning and show and tells.</p>
+
+    <p>Use straightforward language, even when you’re dealing with complex technical
+issues. Prefer to write it down over speaking it out, to ensure a lasting
+record.</p>
+  </li>
+  <li>
+    <p><strong>Be humble, supportive and open minded</strong></p>
+
+    <p>Assume other people on your team know things you don’t. Feel comfortable
+saying “I don’t know”.</p>
+
+    <p>Assume you know things other people on your team don’t, but be prepared to be
+wrong. Ask questions rather than giving instructions. Share your opinions and
+experience openly with your team.</p>
+
+    <p>Question the obvious and test our assumptions. Listen to the client and the
+users and their experiences.</p>
+
+    <p>Be non-judgemental – assume everyone did the best they could at the time,
+with what they knew and the resources available.</p>
+  </li>
+  <li>
+    <p><strong>Always learning. Always teaching</strong></p>
+
+    <p>Technology never stops, and the amount to know even for our limited stack is
+huge, so we must learn and share. We teach each other through peer mentoring,
+pairing and reviews.</p>
+
+    <p>Share what you learn on a project with the whole team so we can reuse
+knowledge across projects. Encourage others in their learning.</p>
+  </li>
+  <li>
+    <p><strong>Do the smallest amount of good work</strong></p>
+
+    <p>We aspire to regularly ship good code, and deliver it to the users as often
+as possible. Delivering impact fast by shipping something real has a big
+impact on the morale of the team and happiness of our clients and users.</p>
+
+    <p>Where you can, do less and deliver it sooner. Break down work into smaller
+pieces. Descope anything that isn’t critical for a first version. Do a
+minimum slice that works for some of your users. Anything to reduce the time
+between get started on something and delivering it to users.</p>
+
+    <p>Work at a pace that suits the project. Hacky is sometimes fine. If you’re
+working on prototypes then do only what you need to answer your questions.
+Sometimes, if you’re working on critical production systems, you’ll have to
+go slower. When that’s the case, it’s even more important to break down the
+work into the smallest reasonable chunks, to demonstrate progress, to make
+reviewing the changes as easy as possible, and to prove your assumptions.</p>
+  </li>
+  <li>
+    <p><strong>Work in the open</strong></p>
+
+    <p>Be open by default. Code should be public unless there’s a good reason
+otherwise. Changes to open source libraries should be contributed back to the
+project. Dashboards should be public wherever reasonable.</p>
+
+    <p>The way we’re working should also be open to our clients. Work being done
+should be represented in Trello boards that everyone can see. Communication
+should be done in public Slack channels rather than direct messages. Openly
+communicating about our work allows clients to see how we’re doing, and what
+needs their attention, and gives everyone in the team context for the work
+being done and decisions being made.</p>
+  </li>
+</ol>
+
+        </article>
+      </section>
+    </main>
+    <footer>
+      <button class="sidebar-toggle" aria-label="Toggle Navigation">
+        <div class="sidebar-toggle-button">
+          <span></span><span></span><span></span>
+        </div>
+      </button>
+    </footer>
+    <script type="text/javascript" src="./dist/main.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

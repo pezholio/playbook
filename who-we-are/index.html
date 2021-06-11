@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>dxw Playbook</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/main.css" />
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  </head>
+
+  <body class="ready sticky">
+    <a class="skip" id="skip-to-content" href="#main">Skip to content</a>
+    <nav class="app-nav" aria-label="Main">
+
+<ul>
+  <li><a href="/">Playbook</a></li>
+  <li>
+    <a href="./guides">Guides</a>
+    <ul>
+      
+      <li><a href="/guides/agile-delivery-phases.html">Agile delivery phases</a></li>
+      
+      <li><a href="/guides/being-a-tech-lead-at-dxw.html">Being a tech lead at dxw</a></li>
+      
+      <li><a href="/guides/card-sort.html">Card sorting</a></li>
+      
+      <li><a href="/guides/claiming-expenses.html">Claiming expenses</a></li>
+      
+      <li><a href="/guides/contributing.html">Contributing to the Playbook</a></li>
+      
+      <li><a href="/guides/daily-standups.html">Daily standups</a></li>
+      
+      <li><a href="/guides/design-career-progression-framework.html">Design career progression framework</a></li>
+      
+      <li><a href="/guides/development-workflow.html">Development workflow</a></li>
+      
+      <li><a href="/guides/getting-a-project-ready-for-support.html">Getting a project ready for support</a></li>
+      
+      <li><a href="/guides/plugin-advisories.html">GovPress plugin Advisories</a></li>
+      
+      <li><a href="/guides/plugin-reviews.html">GovPress plugin reviews</a></li>
+      
+      <li><a href="/guides/how-we-do-pitches.html">How we do pitches</a></li>
+      
+      <li><a href="/guides/how-we-do-user-research.html">How we do user research</a></li>
+      
+      <li><a href="/guides/inclusion-diversity-equality.html">Inclusion, diversity and equal opportunities policy</a></li>
+      
+      <li><a href="/guides/junior-developer-development-plan.html">Junior developer development plan</a></li>
+      
+      <li><a href="/guides/managing.html">Managing the Playbook</a></li>
+      
+      <li><a href="/guides/office-accessibility.html">Office accessibility</a></li>
+      
+      <li><a href="/guides/week-notes.html">Project weeknotes</a></li>
+      
+      <li><a href="/guides/running-a-discovery-kick-off-workshop.html">Running a discovery kick-off workshop</a></li>
+      
+      <li><a href="/guides/running-a-roadmapping-workshop.html">Running a roadmapping workshop</a></li>
+      
+      <li><a href="/guides/service-design-at-dxw.html">Service Design approach</a></li>
+      
+      <li><a href="/guides/setting-up-a-new-project.html">Setting up a new project</a></li>
+      
+      <li><a href="/guides/show-and-tells.html">Show and tells</a></li>
+      
+      <li><a href="/guides/sprint-planning.html">Sprint Planning</a></li>
+      
+      <li><a href="/guides/support-and-on-call.html">Support and on call</a></li>
+      
+      <li><a href="/guides/team-and-project-scheduling.html">Team and project scheduling</a></li>
+      
+      <li><a href="/guides/team-changes-and-handovers.html">Team changes and handovers</a></li>
+      
+      <li><a href="/guides/test.html">Test</a></li>
+      
+      <li><a href="/guides/tone-of-voice.html">Tone of voice</a></li>
+      
+      <li><a href="/guides/moving-a-repo-to-github.html">Transferring a repo from git.dxw.net to github</a></li>
+      
+      <li><a href="/guides/web-accessibility.html">Web accessibility</a></li>
+      
+      <li><a href="/guides/web-analytics.html">Web analytics</a></li>
+      
+      <li><a href="/guides/web-performance.html">Web performance</a></li>
+      
+      <li><a href="/guides/working-remotely.html">Working remotely</a></li>
+      
+      <li><a href="/guides/wrapping-up-a-project.html">Wrapping up a project</a></li>
+      
+    </ul>
+  </li>
+</ul>
+
+<div class="logo">
+  <a href="./" title="Back to Playbook home page">
+    <img src="/dist/dmark.png" alt="" width="32" height="32" />
+  </a>
+</div>
+</nav>
+    <aside class="sidebar">
+      <div class="search" role="search">
+        <div class="input-wrap">
+          <input
+            type="search"
+            value=""
+            aria-label="Search text"
+            placeholder="Type to search"
+          />
+        </div>
+        <div class="results-panel"></div>
+      </div>
+      <nav class="sidebar-nav" aria-label="sidebar">      <h1 class="page-title">Who we are</h1>
+      <ul>
+        <li data-title="Our values" data-content="We think that it’s very important to have a talented team if we’re going to
+succeed. But just as important as raw talent is our ability to work well
+together. These are the values that we aspire to, and help each other to
+achieve.">
+          <a href="#our-values" data-target="our-values">Our values</a>
+                <ul>
+        <li data-title="Helpful" data-content="We are helpful, useful and expert. We give practical and pragmatic advice to
+each other, and to our clients.">
+          <a href="#helpful" data-target="helpful">Helpful</a>
+                <ul>
+        <li data-title="Positive" data-content="We are positive, cheerful and supportive. Even in crisis, we stay optimistic. We
+assume good faith
+and offer constructive challenge.">
+          <a href="#positive" data-target="positive">Positive</a>
+          
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Reliable" data-content="We are reliable, consistent and committed. We make every effort to live up to
+each others’ expectations, and to exceed the expectations of our clients.">
+          <a href="#reliable" data-target="reliable">Reliable</a>
+          
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Honest" data-content="We are honest, trustworthy and straightforward. We give plain-spoken, frank,
+accurate feedback and advice, and we never mislead or obscure the issue at hand.">
+          <a href="#honest" data-target="honest">Honest</a>
+          
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Curious" data-content="We are curious, diverse and creative. We help each other to learn and improve
+and we’re sensitive to each others’ needs. We love technology and finding new
+ways to solve problems.">
+          <a href="#curious" data-target="curious">Curious</a>
+          
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Determined" data-content="We are determined, discerning and motivated. We believe in high standards, we
+enjoy doing things properly, and we’re loath to settle for less.">
+          <a href="#determined" data-target="determined">Determined</a>
+          
+        </li>
+      </ul>
+
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Our principles" data-content="These principles help us live up to our values, and guide our
+behaviour and decision making in all the things we do at dxw.">
+          <a href="#our-principles" data-target="our-principles">Our principles</a>
+                <ul>
+        <li data-title="Start with people and their needs" data-content="At dxw we want to create public services that work well for everyone who depends
+on them.We start by understanding the different people who will use and be affected by a
+service. Wherever possible we work with them to design and test the things they
+will use.We actively consider the intended and unintended consequences of our work on
+people, communities and the planet.">
+          <a href="#start-with-people-and-their-needs" data-target="start-with-people-and-their-needs">Start with people and their needs</a>
+          
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Keep an agile mindset" data-content="At dxw, we think that agile is a mindset that’s accepting of change, curious
+about trying new approaches to make things better, and values careful planning
+in short chunks.We think that the Agile Manifesto contains a lot
+of wisdom, but we don’t follow the industry of methodologies, training and
+certifications that has grown up around it. We think agile is something you
+learn to be, not something that you learn to do.We recognise the importance of compliance and governance, so we build those
+activities into each step.">
+          <a href="#keep-an-agile-mindset" data-target="keep-an-agile-mindset">Keep an agile mindset</a>
+          
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Work at a sustainable pace" data-content="At dxw, we work at a sustainable pace. We estimate work and schedule it
+conservatively, and set realistic expectations with clients about the pace of
+delivery.This doesn’t mean that we don’t work hard. Being productive is a vital part of
+maintaining the trust that our clients give us, and it’s important not to let
+them down.">
+          <a href="#work-at-a-sustainable-pace" data-target="work-at-a-sustainable-pace">Work at a sustainable pace</a>
+          
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Balance openness and confidentiality" data-content="dxw believes it’s best to be open about what we’re doing. We encourage our
+clients to do the same, as does the
+service manual. We talk, blog and write
+about what we’re doing, and we are open about as much as we can.At dxw, we release code, publish our
+contracts and things like this Playbook
+and talk with people about what we’re up to because we believe that we’ll
+ultimately have more opportunities to work, grow and improve than if we kept
+everything to ourselves.However, there are some things that we must keep private.
+  Our clients trust us to host content that is not public, like upcoming
+announcements and discussions made as part of formulating new policy. This is
+not our information to be open about, and it’s very important to keep it
+confidential.
+  We also hold some personal data about and/or on behalf of our clients. We
+never share any of this data, including contact details. See also:
+data protection.
+  We are sometimes sent documents that are
+protectively marked, and we have a scheme of our
+own. Information in these documents is confidential.
+  Information about work that is currently being procured (whether we are
+bidding or not) and any other information that could damage the commercial
+interests of a client or supplier
+">
+          <a href="#balance-openness-and-confidentiality" data-target="balance-openness-and-confidentiality">Balance openness and confidentiality</a>
+          
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Diversity and inclusion statement" data-content="At dxw, we value people and want them to feel free to be themselves.We embrace each other’s differences, in gender, religion, beliefs, ethnicity,
+disability, age, sexual orientation, neurotype, nationality, and identity. We
+are diverse - like the people we build, design, and create for.Amazing things happen when we collaborate together. We work in the open and
+believe everyone’s voices should be heard.We recognise individual needs and aim to provide a work environment that is
+accessible, welcoming, and empowering for all. We want everyone to feel
+supported and included in our wider community.Our values are more than just words on a page - it’s about
+constant action and holding ourselves to account.We’re committed to being transparent with our diversity information and
+regularly assessing the impact of all our policies and practices.Our approach is set out in our
+Inclusion, diversity and equal opportunities policy.Thank you for being you - it makes us better.">
+          <a href="#diversity-and-inclusion-statement" data-target="diversity-and-inclusion-statement">Diversity and inclusion statement</a>
+          
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Reduce our impact on the environment" data-content="At dxw we are working to become a more environmentally sustainable company.We are focusing on three main areas to reduce our impact:
+  In our offices we recycle waste where possible. We are switching to
+environmentally friendly office supplies and refreshments, and changing to
+renewable energy suppliers.
+  We are aware that the digital services we provide have a significant
+environmental impact. We are finding ways to reduce our contribution by
+building our products efficiently and using renewable energy for hosting.
+  Whenever possible we travel by public transport, and we often work
+remotely to reduce the need for travel. Due to client needs this isn’t always
+possible but we’re investigating how to offset our carbon footprint.
+">
+          <a href="#reduce-our-impact-on-the-environment" data-target="reduce-our-impact-on-the-environment">Reduce our impact on the environment</a>
+          
+        </li>
+      </ul>
+
+        </li>
+      </ul>
+      <ul>
+        <li data-title="Our Advisory Council" data-content="dxw does not have external investors or shareholders. To help keep us honest, we
+are very lucky to have a voluntary Advisory Council, made up of a small group of
+senior figures, who meet quarterly to discuss and provide guidance on our
+strategy, business plan and other topics related to company health and
+progression. The group have a wealth of experience of public and private sector
+work, as well as being friends of dxw that share our values.">
+          <a href="#our-advisory-council" data-target="our-advisory-council">Our Advisory Council</a>
+          
+        </li>
+      </ul>
+      <ul>
+        <li data-title="This Playbook" data-content="This Playbook is our reference for who we are and the way we do things.
+Something canonical that tells us what the current “right way” to do things is.If you’re a current or potential client, this Playbook is also for you. To help
+you understand us and how we can work together.We continually update the principles and guides in our
+Playbook. Because we’re always exploring better ways to get things done. What’s
+written here is the way we do things now. Until we find something better, and
+write that down.This Playbook was originally inspired by
+Thoughtbot’s excellent playbook. Thanks,
+Thoughtbot!">
+          <a href="#this-playbook" data-target="this-playbook">This Playbook</a>
+                <ul>
+        <li data-title="Updating the Playbook" data-content="This Playbook is a collaborative effort. Anyone at dxw can and should edit it.
+So if you spot something that’s wrong, feel free to hop in and correct it.But remember that this Playbook is the result of our conversations about how we
+should do things, not a substitute for one. So don’t make changes unless they
+reflect our shared agreement about how things are going to be done.This document is also public, because there is very little about our process
+that cannot be open. But there will be some things that should be private. So
+don’t forget that changes here get published to the world.To update the Playbook, follow the
+guide to Contributing to the Playbook and use
+dxw Tone of voice.">
+          <a href="#updating-the-playbook" data-target="updating-the-playbook">Updating the Playbook</a>
+          
+        </li>
+      </ul>
+
+        </li>
+      </ul>
+
+        </li>
+      </ul>
+</nav>
+    </aside>
+    <main>
+      <section class="content">
+        <article class="markdown-section" id="main">
+          <h1>Who we are</h1>
+          <p>dxw is an independent digital agency that works with the public and third
+sectors.</p>
+
+<p>Since 2008, we’ve worked in partnership with our clients to improve people’s
+lives by designing, building, operating, and improving digital public services.
+We support the public sector teams we work with to build their own digital
+capability and take an iterative user-centred approach to service design.</p>
+
+<p>The challenge facing the public sector today is a significant one. There’s more
+pressure than ever to deliver online services quickly and save money. It’s a
+huge job and, in addition to talented in-house teams, the sector needs expert
+suppliers who share their values and understand how to work with them.</p>
+
+<p>We want people’s experience of public services to be positive and seamless. That
+means creating great services that are accessible to everyone. Our approach is
+to add value early and often, rapidly researching, testing, learning, and
+delivering on time. Wherever we can, we work in the open, sharing our code, and
+what we’ve learned.</p>
+
+<p>Our aim is to help the public sector make the most of the opportunities digital
+offers to make services better for the people who depend on them. And,
+ultimately, to free up more resources for essential front line services like
+education, health and social care, housing, welfare, and policing.</p>
+
+<h3 id="our-values">Our values</h3>
+
+<p>We think that it’s very important to have a talented team if we’re going to
+succeed. But just as important as raw talent is our ability to work well
+together. These are the values that we aspire to, and help each other to
+achieve.</p>
+
+<h4 id="helpful">Helpful</h4>
+
+<p>We are helpful, useful and expert. We give practical and pragmatic advice to
+each other, and to our clients.</p>
+
+<h4 id="positive">Positive</h4>
+
+<p>We are positive, cheerful and supportive. Even in crisis, we stay optimistic. We
+<a href="https://en.wikipedia.org/wiki/Wikipedia:Assume_good_faith">assume good faith</a>
+and offer constructive challenge.</p>
+
+<h4 id="reliable">Reliable</h4>
+
+<p>We are reliable, consistent and committed. We make every effort to live up to
+each others’ expectations, and to exceed the expectations of our clients.</p>
+
+<h4 id="honest">Honest</h4>
+
+<p>We are honest, trustworthy and straightforward. We give plain-spoken, frank,
+accurate feedback and advice, and we never mislead or obscure the issue at hand.</p>
+
+<h4 id="curious">Curious</h4>
+
+<p>We are curious, diverse and creative. We help each other to learn and improve
+and we’re sensitive to each others’ needs. We love technology and finding new
+ways to solve problems.</p>
+
+<h4 id="determined">Determined</h4>
+
+<p>We are determined, discerning and motivated. We believe in high standards, we
+enjoy doing things properly, and we’re loath to settle for less.</p>
+
+<h3 id="our-principles">Our principles</h3>
+
+<p>These principles help us live up to our <a href="#our-values">values</a>, and guide our
+behaviour and decision making in all the things we do at dxw.</p>
+
+<h4 id="start-with-people-and-their-needs">Start with people and their needs</h4>
+
+<p>At dxw we want to create public services that work well for everyone who depends
+on them.</p>
+
+<p>We start by understanding the different people who will use and be affected by a
+service. Wherever possible we work with them to design and test the things they
+will use.</p>
+
+<p>We actively consider the intended and unintended consequences of our work on
+people, communities and the planet.</p>
+
+<h4 id="keep-an-agile-mindset">Keep an agile mindset</h4>
+
+<p>At dxw, we think that agile is a mindset that’s accepting of change, curious
+about trying new approaches to make things better, and values careful planning
+in short chunks.</p>
+
+<p>We think that the <a href="https://agilemanifesto.org/">Agile Manifesto</a> contains a lot
+of wisdom, but we don’t follow the industry of methodologies, training and
+certifications that has grown up around it. We think agile is something you
+learn to be, not something that you learn to do.</p>
+
+<p>We recognise the importance of compliance and governance, so we build those
+activities into each step.</p>
+
+<h4 id="work-at-a-sustainable-pace">Work at a sustainable pace</h4>
+
+<p>At dxw, we work at a sustainable pace. We estimate work and schedule it
+conservatively, and set realistic expectations with clients about the pace of
+delivery.</p>
+
+<p>This doesn’t mean that we don’t work hard. Being productive is a vital part of
+maintaining the trust that our clients give us, and it’s important not to let
+them down.</p>
+
+<h4 id="balance-openness-and-confidentiality">Balance openness and confidentiality</h4>
+
+<p>dxw believes it’s best to be open about what we’re doing. We encourage our
+clients to do the same, as does the
+<a href="https://www.gov.uk/service-manual">service manual</a>. We talk, blog and write
+about what we’re doing, and we are open about as much as we can.</p>
+
+<p>At dxw, we release <a href="https://www.github.com/dxw">code</a>, publish our
+<a href="https://www.github.com/dxw/contracts">contracts</a> and things like this Playbook
+and talk with people about what we’re up to because we believe that we’ll
+ultimately have more opportunities to work, grow and improve than if we kept
+everything to ourselves.</p>
+
+<p>However, there are some things that we must keep private.</p>
+
+<ul>
+  <li>Our clients trust us to host content that is not public, like upcoming
+announcements and discussions made as part of formulating new policy. This is
+not our information to be open about, and it’s very important to keep it
+confidential.</li>
+  <li>We also hold some personal data about and/or on behalf of our clients. We
+never share any of this data, including contact details. See also:
+<a href="#data-protection">data protection</a>.</li>
+  <li>We are sometimes sent documents that are
+<a href="#protective-marking-scheme">protectively marked</a>, and we have a scheme of our
+own. Information in these documents is confidential.</li>
+  <li>Information about work that is currently being procured (whether we are
+bidding or not) and any other information that could damage the commercial
+interests of a client or supplier</li>
+</ul>
+
+<h4 id="diversity-and-inclusion-statement">Diversity and inclusion statement</h4>
+
+<p>At dxw, we value people and want them to feel free to be themselves.</p>
+
+<p>We embrace each other’s differences, in gender, religion, beliefs, ethnicity,
+disability, age, sexual orientation, neurotype, nationality, and identity. We
+are diverse - like the people we build, design, and create for.</p>
+
+<p>Amazing things happen when we collaborate together. We work in the open and
+believe everyone’s voices should be heard.</p>
+
+<p>We recognise individual needs and aim to provide a work environment that is
+accessible, welcoming, and empowering for all. We want everyone to feel
+supported and included in our wider community.</p>
+
+<p>Our <a href="#our-values">values</a> are more than just words on a page - it’s about
+constant action and holding ourselves to account.</p>
+
+<p>We’re committed to being transparent with our diversity information and
+regularly assessing the impact of all our policies and practices.</p>
+
+<p>Our approach is set out in our
+<a href="/guides/inclusion-diversity-equality.html">Inclusion, diversity and equal opportunities policy</a>.</p>
+
+<p>Thank you for being you - it makes us better.</p>
+
+<h4 id="reduce-our-impact-on-the-environment">Reduce our impact on the environment</h4>
+
+<p>At dxw we are working to become a more environmentally sustainable company.</p>
+
+<p>We are focusing on three main areas to reduce our impact:</p>
+
+<ul>
+  <li>In our <strong>offices</strong> we recycle waste where possible. We are switching to
+environmentally friendly office supplies and refreshments, and changing to
+renewable energy suppliers.</li>
+  <li>We are aware that the <strong>digital services</strong> we provide have a significant
+environmental impact. We are finding ways to reduce our contribution by
+building our products efficiently and using renewable energy for hosting.</li>
+  <li>Whenever possible we <strong>travel</strong> by public transport, and we often work
+remotely to reduce the need for travel. Due to client needs this isn’t always
+possible but we’re investigating how to offset our carbon footprint.</li>
+</ul>
+
+<h3 id="our-advisory-council">Our Advisory Council</h3>
+
+<p>dxw does not have external investors or shareholders. To help keep us honest, we
+are very lucky to have a voluntary Advisory Council, made up of a small group of
+senior figures, who meet quarterly to discuss and provide guidance on our
+strategy, business plan and other topics related to company health and
+progression. The group have a wealth of experience of public and private sector
+work, as well as being friends of dxw that share our values.</p>
+
+<h3 id="this-playbook">This Playbook</h3>
+
+<p>This Playbook is our reference for who we are and the way we do things.
+Something canonical that tells us what the current “right way” to do things is.</p>
+
+<p>If you’re a current or potential client, this Playbook is also for you. To help
+you understand us and how we can work together.</p>
+
+<p>We <a href="/guides/managing">continually update</a> the principles and guides in our
+Playbook. Because we’re always exploring better ways to get things done. What’s
+written here is the way we do things now. Until we find something better, and
+write that down.</p>
+
+<p>This Playbook was originally inspired by
+<a href="https://playbook.thoughtbot.com/">Thoughtbot’s excellent playbook</a>. Thanks,
+Thoughtbot!</p>
+
+<h4 id="updating-the-playbook">Updating the Playbook</h4>
+
+<p>This Playbook is a collaborative effort. Anyone at dxw can and should edit it.
+So if you spot something that’s wrong, feel free to hop in and correct it.</p>
+
+<p>But remember that this Playbook is the result of our conversations about how we
+should do things, not a substitute for one. So don’t make changes unless they
+reflect our shared agreement about how things are going to be done.</p>
+
+<p>This document is also public, because there is very little about our process
+that cannot be open. But there will be some things that should be private. So
+don’t forget that changes here get published to the world.</p>
+
+<p>To update the Playbook, follow the
+<a href="/guides/contributing">guide to Contributing to the Playbook</a> and use
+<a href="/guides/tone-of-voice">dxw Tone of voice</a>.</p>
+
+        </article>
+      </section>
+    </main>
+    <footer>
+      <button class="sidebar-toggle" aria-label="Toggle Navigation">
+        <div class="sidebar-toggle-button">
+          <span></span><span></span><span></span>
+        </div>
+      </button>
+    </footer>
+    <script type="text/javascript" src="./dist/main.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
