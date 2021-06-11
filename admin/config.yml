@@ -2,6 +2,7 @@ backend:
   name: github
   repo: pezholio/playbook
   branch: main
+  site_domain: blog.pezholio.co.uk/playbook
 media_folder: "_images"
 publish_mode: editorial_workflow
 collections:
