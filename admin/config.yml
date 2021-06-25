@@ -3,6 +3,7 @@ backend:
   repo: pezholio/playbook
   branch: main
   site_domain: blog.pezholio.co.uk/playbook
+  base_url: https://dxw-playbook-authentication.herokuapp.com/
 media_folder: "_images"
 publish_mode: editorial_workflow
 collections:
