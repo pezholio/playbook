@@ -4,7 +4,7 @@ title: Commercial operations
 We are the team that enables and encourages dxw to achieve its mission(s) and
 uphold its values.
 
-#### Commercial operations team principlessssss
+#### Commercial operations team principles
 
 ##### Things we do:
 
