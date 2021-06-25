@@ -1,6 +1,7 @@
 ---
 title: Commercial operations
 ---
+
 We are the team that enables and encourages dxw to achieve its mission(s) and
 uphold its values.
 
@@ -39,4 +40,4 @@ uphold its values.
 6. We are proud of what we do and are confident enough to talk about it.
 7. We manage expectations by taking responsibility for our work and
    communicating what we do and why.
-8. We *are* the company values.
+8. We _are_ the company values.
